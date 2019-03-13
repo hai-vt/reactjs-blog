@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { render } from 'react-dom';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from './Header/Header';
 import Home from './Home/Home';
@@ -14,9 +15,9 @@ export default class Index extends Component {
             <div className="main-container">
             <Header />
             <Route exact path="/" component={Home} />
-            <Route path="/about/" component={AboutMe} />
-            <Route path="/blog/" component={BlogList} />
-            <Route path="/contact/" component={ContactMe} />
+            <Route path="/about" component={AboutMe} />
+            <Route path="/blog" component={BlogList} />
+            <Route path="/contact" component={ContactMe} />
             </div>
             </Router>
     );

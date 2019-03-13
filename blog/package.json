@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://hai-vt.github.io/reactjs-blog",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "next": "^8.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
