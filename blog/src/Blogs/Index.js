@@ -11,7 +11,7 @@ import './index.css';
 export default class Index extends Component {
     render() {
         return (
-            <Router>
+            <Router basename="/reactjs-blog">
             <div className="main-container">
             <Header />
             <Route exact path="/" component={Home} />
