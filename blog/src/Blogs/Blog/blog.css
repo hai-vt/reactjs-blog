@@ -2,7 +2,7 @@
     padding: 50px 0;
 }
 
-.blog-list {
+.blog-page-content {
     max-width: 1280px;
     padding-left: 20px;
     padding-right: 20px;
@@ -46,4 +46,17 @@
     word-spacing: normal;
     color: #85868c;
     margin: 0 0 10px;
+}
+
+.form-add-blog {
+
+}
+
+.form-add-blog .item-form {
+    margin: 0 0 10px;
+}
+
+.form-add-blog .item-form label{
+    display: block;
+    margin: 0 0 5px;
 }
